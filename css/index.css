@@ -77,6 +77,22 @@ nav{
 nav a{
     color:#626262;
 }
+
+@keyframes navAnimation {
+    from {background-color: white;}
+    to {background-color: #AD9C9C;}
+  }
+
+nav a:hover {
+    color: white;
+    background-color: #AD9C9C;
+    border: 2px solid #616161;
+    border-radius: 7px;
+    animation: navAnimation 500ms linear 0s 1 alternate;
+    font-variant: small-caps;
+    padding: 1% 2%;
+}
+
 nav span{
     border-left:3px solid #626262;
 
@@ -133,4 +149,24 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+/* Media Queries 500px */
+
+@media (max-width: 500px) {
+    nav {
+        width: 55%;
+    }
+
+    nav a {
+        font-size: 2rem;
+    }
+
+    .artists-container {
+        flex-wrap: wrap;
+    }
+
+    .artist {
+        width: 55%;
+    }
 }
