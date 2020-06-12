@@ -22,11 +22,25 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. How would you describe preprocessing to someone new to CSS?
-2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+1. How would you describe acessibility on the web to someone new to programming?
+
+    Utilizing accessibility features within a site such as semantic HTML, alt tags for images, ARIA tags, high contrast color schemes, and responsive design enables a much wider audience to use and enjoy your website, even if they are utilizing tools like a screen reader or larger font size. Without these features, your site can become completely inaccessible to anyone not using the "default" settings to browse the web.
+
+2. Talk about 3 different things you can do to ensure your website is accessible.
+
+    Semantic HTML helps screen readers and search engins understand the structure of each page on your site by marking different sections like header, navigation, main, section, aside and footer.
+
+    ALT tags on images unable those utilizing screen readers to still understand the context of images displayed, even if they are unable to see them.
+
+    Response design (e.g. using relative units of measurement in CSS, rather than hard coded px values) enables your site to still look (and function) as intended, even though a user may have changed the default font size of their browser to larger or smaller, or a user may be browsing your site using a device with a different screen size, other than what you used when building the site. 
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+    A variable acts like a container to hold something else such as a piece of data, a collection of different pieces of data, or a function that performs an action.
+
 4. What is the purpose of using functions in code?
-5. What is JSON data?
+
+    Functions are blocks of code that perform a specific action and may or may not return a piece of data, depending on the purpose of the function.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
